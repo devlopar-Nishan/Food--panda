@@ -1,0 +1,228 @@
+.profil{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 255,.4);
+}
+*{
+    font-family: "Playwrite GB S", serif ;
+     font-optical-sizing: auto;
+     box-sizing: border-box;
+     padding: 0;
+  
+}
+.harticon{
+    visibility: hidden;
+    opacity: 0;
+}
+.carticon{
+    visibility: hidden;
+    opacity: 0;
+}
+.nav-link{
+    padding: 0;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.cart{
+    height: 30px;
+    width: 30px;
+    display: flex;
+<<<<<<< HEAD
+    margin-top: 12px !important;
+    
+}
+ 
+.profil-div{
+    background-color: #f6a63e !important;
+    border-radius: 60px;
+    border-radius: 50px;
+    display: flex
+;
+   
+    margin-top: 6px;
+    padding: 5px 10px;
+    text-align: center;
+    justify-content: center !important;
+
+=======
+    margin-top: 12px;
+    
+}
+ 
+ .profil-div{
+    background-color: #f6a63e !important;
+    border-radius: 60px;
+    border-radius: 50px;
+    display: flex;
+   
+    margin-top: 6px;
+    padding: 5px 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center !important;
+>>>>>>> ec7c41e (Your commit message)
+
+    
+     
+    
+    
+
+}  
+#signin{
+ 
+}
+ 
+.profil-div:hover{
+     
+    background: #ffffff !important;
+    transition: .5s;
+    
+}
+.signinbutton{
+    
+}
+  
+.nav-bod{
+ background-color: rgba(240, 248, 255,.4);
+ backdrop-filter: blur(10px);
+    /* position: fixed; */
+    
+     width: 100%; 
+
+
+}
+.front-size{
+    font-size: 1.3rem;
+     
+}
+    .chang{
+        background: red;
+    }
+.heart{
+    height: 30px;
+    width: 30px;
+<<<<<<< HEAD
+    margin-top: 12px !important;
+=======
+    margin-top: 12px;
+>>>>>>> ec7c41e (Your commit message)
+}
+.iswishlist{
+
+}
+.iswishlist {
+    animation: wishlistAnimation 0.5s infinite ease-in-out;
+}
+.menu-path{
+    display: inline-block;
+
+}
+.menu-path::after{
+    content: '';
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 0;
+    height: 5px;
+    background: white;
+    transition:  .7s;
+
+}
+.cartid{
+    position: relative;
+}
+.cartid span{
+    position: absolute;
+    top: -13px;
+    left: 15px;
+    color: red;
+    font-weight: 900;
+     
+}
+.reactive::after{
+    width: 100%;
+    background: red;
+}
+
+
+@keyframes wishlistAnimation {
+    0% {
+        transform: scale(1);
+         color:red;
+    }
+    50% {
+        transform: scale(1.2);
+        color: red;
+         
+    }
+    100% {
+        transform: scale(1);
+        color:red;
+    }
+}
+
+ 
+
+ @media  (max-width:1050px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+         
+ }
+ @media  (max-width:768px) {
+    .carticon{
+        visibility: visible  ;
+        opacity: 1  ;
+    }
+    .harticon{
+        visibility: visible  ;
+        opacity: 1  ;
+    }
+    .cartid span {
+         
+        left: 33px;
+         
+    }
+    .cartid{
+        margin-bottom: 10px;
+    }
+    .profil-div{
+         
+    
+        margin-top: 15px;
+
+    }
+
+ }
+<<<<<<< HEAD
+@media  (max-width:480px) {
+=======
+
+
+ @media  (max-width:480px) {
+>>>>>>> ec7c41e (Your commit message)
+    .profil-div{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+     
+      
+
+
+    }
+    .heart {
+         
+        margin-left: 4px;
+    }
+    
+<<<<<<< HEAD
+ }
+=======
+ }
+>>>>>>> ec7c41e (Your commit message)

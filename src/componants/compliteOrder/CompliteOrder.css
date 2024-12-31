@@ -1,0 +1,80 @@
+.delivary-vedio{
+    width: 25vw;
+}
+.location-vedio{
+    width: 40vw;
+}
+.delivary-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.complite-order{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+    .complite-order h1 {
+        font-size: 2rem;
+    }
+    
+    .complite-order h5 {
+        font-size: 1.2rem;
+    }
+    
+    .complite-order small {
+        font-size: 0.9rem;
+    }
+    
+    
+    
+     
+}
+
+@media (max-width: 480px) {
+    .complite-order h1 {
+        font-size: 1.2rem;
+    }
+    
+    .complite-order h5 {
+<<<<<<< HEAD
+        font-size: 0.8rem;
+=======
+        font-size: .8rem;
+>>>>>>> ec7c41e (Your commit message)
+    }
+    
+    .complite-order small {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:325px) {
+    .complite-order h1 {
+<<<<<<< HEAD
+        font-size: 0.8rem;
+    }
+    
+    .complite-order h5 {
+        font-size: 0.6rem;
+=======
+        font-size: .8rem;
+    }
+    
+    .complite-order h5 {
+        font-size: .6rem;
+>>>>>>> ec7c41e (Your commit message)
+    }
+    
+    .complite-order small {
+        font-size: 0.5rem;
+    }
+    
+}
