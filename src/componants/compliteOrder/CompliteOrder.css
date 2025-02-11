@@ -44,11 +44,9 @@
     }
     
     .complite-order h5 {
-<<<<<<< HEAD
-        font-size: 0.8rem;
-=======
+ 
         font-size: .8rem;
->>>>>>> ec7c41e (Your commit message)
+ 
     }
     
     .complite-order small {
@@ -58,19 +56,18 @@
 
 @media (max-width:325px) {
     .complite-order h1 {
-<<<<<<< HEAD
+ 
         font-size: 0.8rem;
     }
     
     .complite-order h5 {
         font-size: 0.6rem;
-=======
-        font-size: .8rem;
+ 
     }
     
     .complite-order h5 {
         font-size: .6rem;
->>>>>>> ec7c41e (Your commit message)
+ 
     }
     
     .complite-order small {
