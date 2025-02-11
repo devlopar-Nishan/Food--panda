@@ -19,7 +19,6 @@
 }
 
 .cart-item-wrapper {
-<<<<<<< HEAD
     display: grid;
     grid-template-columns: 1.5fr 2fr 2fr 1fr;
     gap: 10px;
@@ -27,24 +26,7 @@
     background:  rgba(240, 248, 255,.6);
     padding: 10px;
     border-radius: 5px;
-=======
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-     
-     
-    align-items: center;
-    gap: 1rem; */
-    display: grid;
-    grid-template-columns: 1.5fr 2fr 2fr 1fr;
-    gap: 10px;
-    align-items: center;
-    background:  rgba(240, 248, 255,.6);
-    padding: 10px;
-    border-radius: 5px;
-    
-
->>>>>>> ec7c41e (Your commit message)
+ 
 }
 
 .cart-item-image {
